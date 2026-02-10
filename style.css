@@ -36,3 +36,43 @@ button:hover {
   margin: 10px;
   border-radius: 10px;
 }
+
+/* Colores para iconos */
+.text-gold {
+  color: goldenrod;
+}
+
+.me-2 {
+  margin-right: 8px;
+}
+
+.ms-2 {
+  margin-right: 6px;
+}
+
+/* Icono grande */
+.icono-grande {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Sección de menú / tarjetas */
+.menu {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card i {
+  color: #000;
+  margin-bottom: 10px;
+}
